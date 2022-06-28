@@ -14,7 +14,7 @@
     "package": "lerna exec --scope ndaraui -- npm pack",
     "release:build": "lerna run build --scope ndaraui",
     "release:version": "lerna version --no-changelog --no-push --no-git-tag-version",
-    "release:publish": "npx lerna publish --no-private",
+    "release:publish": "lerna publish --no-private",
     "start:example": "cd examples/example-app && yarn start"
   },
   "devDependencies": {
